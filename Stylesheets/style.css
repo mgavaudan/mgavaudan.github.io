@@ -21,8 +21,35 @@ p{
 
 }
 
-#links{
-	color:white;
-	float:bottom;
-	margin-top: 100px;
+a:link {
+	text-decoration: none;
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+	
 }
+a:hover {
+	text-decoration: none;
+	color: black;
+	font-family: Verdana, sans-serif;
+	font-style: italic;
+	
+}
+a:visited {
+	text-decoration: none;
+	color: purple;
+	font-family: Verdana, sans-serif;
+	
+}
+
+
+#button{
+    height:50px;
+    width : 130px;
+    border-color:white;
+    background-color:#BCD2EE;
+    border-style:solid;
+    border-width:2px;
+    border-radius:5px;
+    margin:auto;
+    text-align:center;
+    }
