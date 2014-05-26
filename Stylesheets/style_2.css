@@ -5,9 +5,12 @@ background-repeat:no-repeat;
 background-attachment:fixed;
 }
 
+@media screen and (min-width: 1400px){
+
+
 h1{
 
-	font-size: 50px;
+	font-size: 3.125em;
 	color: black;
 }
 
@@ -49,6 +52,7 @@ position: absolute;
 left:150px; top:200px;
 height: 400px;
 color: white;
+margin:auto;
 
 }
 
@@ -58,6 +62,7 @@ position: absolute;
 right:400px; top:200px;
 height: 400px;
 color: white;
+margin:auto;
 
 }
 
@@ -93,3 +98,101 @@ color: white;
     text-align:center;
 
     }
+
+}
+
+    @media screen and (max-width: 1400px){
+
+
+ h1{
+
+	font-size: 3.125em;
+	color: black;
+}
+
+
+
+a:link {
+	text-decoration: none;
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+	
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+	font-family: Verdana, sans-serif;
+	font-style: italic;
+	
+}
+a:visited {
+	text-decoration: none;
+	color: purple;
+	font-family: Verdana, sans-serif;
+	
+}
+
+#header{
+
+	width: 100%;
+	float:top;
+	background-color: white;
+}
+
+
+
+
+#image{
+
+margin:auto;
+width: 20%;
+height: 40%;
+color: white;
+margin-top: 10%;
+
+}
+
+#image_2{
+
+margin:auto;
+width: 20%;
+height: 40%;
+color: white;
+margin-top: 10%;
+
+}
+
+#sidebar{
+	
+	display:none;
+	
+}
+
+#footer{
+
+	color:white;
+	float: bottom;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#button{
+
+    height:50px;
+    width : 130px;
+    border-color:white;
+    background-color:#BCD2EE;
+    border-style:solid;
+    border-width:2px;
+    border-radius:5px;
+    margin:auto;
+    margin-top: 5%;
+    text-align:center;
+
+    }
+
+
+
+    }
+
+    /* iphone < 480px  and 960 px ///// ipad < 1024 and 2048*/

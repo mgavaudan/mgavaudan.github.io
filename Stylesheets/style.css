@@ -7,15 +7,17 @@ background-attachment:fixed;
 
 h1{
 
-	font-size: 50px;
+	font-size: 3.125em;
 	color: white;
 }
 
 p{
 	color:white;
 	font-style: italic;
-	margin-left: 500px;
-	width: 500px;
+	margin-left: 33%;
+	margin-left: 33%;
+	margin-top: 10%;
+	width: 33%;
 	border: 3px solid purple;
 	padding:5px;
 
@@ -51,5 +53,9 @@ a:visited {
     border-width:2px;
     border-radius:5px;
     margin:auto;
+    margin-top: 50px;
     text-align:center;
     }
+
+
+    
