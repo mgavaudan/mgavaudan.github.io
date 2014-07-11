@@ -1,0 +1,89 @@
+th {
+  text-align: left;
+}
+
+#container_1{
+
+  background-image: url("../images/cat.jpg");
+  background-size: cover;
+  height:1100px;
+}
+
+#container_2{
+
+  background-image: url("../images/frac_1.jpg");
+  background-size: cover;
+  height:1100px;
+
+}
+
+#container_3{
+
+  background-image: url("../images/frac_2.jpg");
+  background-size: cover;
+  height:1100px;
+
+}
+
+
+
+#circle_1{
+  border-radius: 40em;
+  margin-left: 26%;
+  line-height: 14em;
+  width: 22%;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+
+  color:black;
+}
+
+#circle_1:hover{
+  border-radius: 40em;
+  margin-left: 26%;
+  line-height: 14em;
+  width: 22%;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+
+  color:white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#circle_2{
+  border-radius: 40em;
+  margin-top: 9.9em;
+  margin-left: 11.5%;
+  line-height: 14em;
+  width: 22%;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+
+  color:black;
+}
+
+
+#circle_2:hover{
+  border-radius: 40em;
+  margin-top: 9.9em;
+  margin-left: 11.5%;
+  line-height: 14em;
+  width: 22%;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+
+  color:white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
