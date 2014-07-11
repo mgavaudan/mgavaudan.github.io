@@ -1,31 +1,66 @@
+#carousel-example-generic{
+
+  position: absolute;
+  top:0px;
+  right: 0px;
+  left:0px;
+  bottom: 0px;
+  
+}
+
+#signup_form{
+
+  margin-left:30%;
+  margin-top: 25em;
+  width: 35%;
+  height:5em;
+}
+
+#nav_home{
+  width:35%;
+  margin-top: 15em;
+  margin-left:30%;
+}
+
+/*------------------------HTML ELEMENNTS STYLING---------------------*/
+
 th {
   text-align: left;
 }
 
-#container_1{
 
-  background-image: url("../images/cat.jpg");
+
+/*------------------------PAGE DIVS----------------------------*/
+
+#page_1{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  left:0px;
+  bottom: 0px;
+  background-image: url("../images/frac_2.jpg");
   background-size: cover;
-  height:1100px;
+
 }
 
-#container_2{
+#page_2{
+  margin-top: 0px;
+  background-image: url("../images/cat.jpg");
+  background-size: cover;
+}
 
+#page_3{
+
+  margin-top: 0px;
   background-image: url("../images/frac_1.jpg");
   background-size: cover;
   height:1100px;
 
 }
 
-#container_3{
-
-  background-image: url("../images/frac_2.jpg");
-  background-size: cover;
-  height:1100px;
-
-}
 
 
+/*------------------------CIRCLE DIVS-------------------------------*/
 
 #circle_1{
   border-radius: 40em;
@@ -40,6 +75,8 @@ th {
 
   color:black;
 }
+
+
 
 #circle_1:hover{
   border-radius: 40em;
