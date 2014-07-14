@@ -5,9 +5,11 @@ Website::Application.routes.draw do
   root :to => 'pages#index'
   match '/music' => 'pages#music'
   match '/philosophy' => 'pages#philosophy'
-  match '/social' => 'pages#social'
+  match '/art' => 'pages#art'
+  match '/home' => 'pages#home'
 
-  post '/users' => 'users#create'
+  post '/signup' => 'users#signup'
+  post '/login' => 'users#login'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

@@ -1,15 +1,145 @@
-.create_user{
 
-  margin-left:45%;
-  margin-top: 25em;
+
+
+
+
+/*------------------------INDEX----------------------------*/
+.container{
+  background-color: black;
+  color: white;
+  /*opacity: 0.5;*/
+  border: solid black;
+  margin-top: 3em;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5%;
+  border-radius: 20px;
+
+}
+
+.login_index{
+
+  width: 10%;
+  position: absolute;
+   left:1em;
+   top:1em;
+
+}
+
+.signup_index{
+
+  margin-left:43%;
+  margin-right: 57%;
+  margin-top: 10em;
   width: 10%;
 }
 
-#nav_index{
-  width:35%;
-  margin-top: 35em;
-  margin-left:30%;
+
+#music_div{
+  background: url('/assets/music.jpg');
+  margin-top:13em;
+  margin-left:10%;
+  width: 25%;
+  height: 17em;
+  color: white;
+  display: inline-block;
+  border: solid white;
 }
+
+#philosophy_div{
+  margin-top:13em;
+  background: url('/assets/philosophy.jpg');
+  margin-left:5%;
+  width: 25%;
+  height: 17em;
+  color: white;
+  display: inline-block;
+  border: solid white;
+}
+
+#art_div{
+  margin-top:13em;
+  background: url('/assets/art.jpg');
+  margin-left:5%;
+  width: 25%;
+  height: 17em;
+  color: black;
+  display: inline-block;
+  border: solid white;
+}
+
+#music_div:hover {
+   opacity: 0.4;
+   }
+
+#art_div:hover {
+   opacity: 0.4;
+   }
+
+#philosophy_div:hover {
+  opacity: 0.4;
+   }
+
+/*------------------------BUTTONS----------------------------*/
+
+#login_but {
+   border-top: 1px solid #1a1b1c;
+   background-color: black;
+   padding: 10px 30px 10px 30px;
+   border-radius: 10px;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   opacity: 0.8;
+   position: absolute;
+   left:1em;
+   top:1em;
+   }
+
+#login_but:hover {
+   border-top-color: #0f2c40;
+   background: #0f2c40;
+   color: #ccc;
+   }
+
+#login_but:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+#signup_but {
+   border-top: 1px solid #1a1b1c;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: black;
+   font-size: 14px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   opacity: 0.8;
+   margin-left:47%;
+   margin-right: 53%;
+   margin-top: 10em;
+   width: 12%;
+   height: 5em;
+  }
+
+#signup_but:hover {
+   border-top-color: #0f2c40;
+   background: #0f2c40;
+   color: #ccc;
+   }
+
+#signup_but:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
 
 
 
@@ -17,6 +147,16 @@
 
 th {
   text-align: left;
+}
+
+h1 {
+   margin-left: 2em;
+   margin-top: 1em;
+}
+
+h2 {
+   margin-left: 1em;
+   margin-top: 1em;
 }
 
 
