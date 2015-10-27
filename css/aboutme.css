@@ -1,0 +1,78 @@
+/************** BACKGROUND **************/
+
+body {
+  text-align: center;
+  font: 300 20px/1.4 Roboto, 'Open Sans', Helvetica, Arial, sans-serif; 
+}
+
+.background-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+/************** BODY CONTENT **************/
+
+
+.navbar{
+  
+  background-color: #333333;
+  font-family: 'Romanesco', cursive ;
+  width:70%;
+  height: 2em;
+  position: absolute;
+  top:2%;
+  left:15%;
+  right:15%;
+}
+
+.link{
+  font-size: 150%;
+  color: #9d967d;
+  text-decoration: none;
+  float: left;
+  margin-left:10%;
+  margin-right:3%;
+  width:19%;
+  display:inline-block;
+
+}
+
+.link:hover{
+  color:#333333;
+  cursor:pointer;
+  background-color: #9d967d;
+}
+
+.abo{
+  background-color: white;
+  width: 70%;
+  height: 35em;
+  padding-bottom: 2em;
+  position: absolute;
+  top:10%;
+  left:15%;
+  right:15%;
+  box-shadow:0px 0px 0px 10px #333333 inset;
+  font-family: 'Open Sans', sans-serif ;
+  overflow: scroll;
+}
+
+.abo h2{
+  padding: 1em;
+}
+
+
+.topic{
+  color:#333333;
+  font-size: 150%;
+  font-family: 'Romanesco', cursive ;
+}
+
+
+
+
+
