@@ -67,7 +67,8 @@ a{
 
 .web{
   padding: 1em;
-  color: #9d967d;
+  /*color: #9d967d;*/
+  color: white;
   font-family: "Playfair Display SC", serif;
   margin-top: 1em;
   font-size: 120%;
@@ -82,29 +83,56 @@ a{
 .web:hover{
   cursor:pointer;
   background-color: black;
-  font-color: ;
+}
+
+.web h4{
+  background: rgba(0,0,0,0.5);
+}
+
+.web p{
+  background: rgba(0,0,0,0.7);
 }
 
 #pro1{
-  background: #eff2f4;
+  background: url(../assets/bac1.png);
 }
 
-
 #pro2{
-  background: #273b51;
+  background: url(../assets/bac2.jpg);
 }
 
 #pro3{
-  background: #2E4172;
+  background: url(../assets/bac3.jpg);
 }
 
 #pro4{
-  background: #061539;
+  background: url(../assets/bac4.jpg);
 }
 
 #pro5{
-  background: #202020;
+  background: #061539;
 }
+
+#pro1:hover{
+  background: #9d967d;;
+}
+
+#pro2:hover{
+  background: #9d967d;;
+}
+
+#pro3:hover{
+  background: #9d967d;;
+}
+
+#pro4:hover{
+  background: #9d967d;;
+}
+
+#pro5:hover{
+  background: #9d967d;;
+}
+
 
 
 
