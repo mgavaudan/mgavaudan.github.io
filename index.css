@@ -47,8 +47,8 @@ html, body,
 .cbp-fbscroller > nav a:after {
   content: '';
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 1vw;
+  height: 1vw;
   border-radius: 50%;
   border: 4px solid #fff;
 }
@@ -178,6 +178,7 @@ body {
 .pro h2{
   font-family: "Playfair Display SC", serif;
   color: white;
+  font-size: 2.5vw;
 }
 
 a{
@@ -189,7 +190,7 @@ a{
   color: white;
   font-family: "Playfair Display", serif;
   margin-top: 1em;
-  font-size: 120%;
+  font-size: 1.5vw;
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.5);
   width: 35%;
@@ -276,7 +277,7 @@ a{
   /*color:#9d967d;*/
   background-color: rgba(0,0,0,0.5);
   padding: 1em;
-  font-size: 200%;
+  font-size: 2vw;
 }
 
 .fact{
@@ -288,13 +289,14 @@ a{
   line-height: 1.5em;
   height: 10em;
   color: black;
+  font-size: 1.3vw;
   /*border:1px solid #9d967d;*/
 
 }
 
 .topic{
   color:#9d967d;
-  font-size: 120%;
+  font-size: 1.5vw;
   margin-bottom: 1em;
   font-family: "Playfair Display", serif;
 }
@@ -313,7 +315,7 @@ a{
   right:15%;
   color:white;
   /*font-style: bold;*/
-  font-size: 110%;
+  font-size: 1.3vw;
 }
 
 #text{
@@ -333,7 +335,10 @@ a{
   padding-top: 1em;
   margin-right: 1em;
   margin-left: 1em;
-  /*margin-bottom: 2em;*/
+  max-width:30vw;
+  max-height:100vw;
+  width: auto;
+  height: auto;
 }
 
 /************** SECTION 5 **************/
@@ -351,20 +356,23 @@ a{
 }
 
 .contact img{
-  padding-top: 3em;
-  padding-bottom: 6em;
-  margin-right: 1em;
-  margin-left: 1em;
+  padding-top: 3vw;
+  padding-bottom: 2vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
 }
 
 .contact img:hover{
-  padding-top: 3em;
-  padding-bottom: 6em;
-  margin-right: 1em;
-  margin-left: 1em;
   opacity: 0.5;
 }
 
+.contact img {
+    display: inline-block;
+    max-width:20vw;
+    max-height:20vw;
+    width: auto;
+    height: auto;
+}
 
 
 
