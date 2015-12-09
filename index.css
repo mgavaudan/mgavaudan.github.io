@@ -109,19 +109,17 @@ body {
 .title{
   color: #9d967d;
   font-family:"Playfair Display SC", serif;
-  font-size:330%;
-  width:70%;
+  font-size:4vw;
   position: absolute;
-  top:23%;
-  left:16%;
-  right: 20%;
+  top:20%;
+  left:17%;
 }
 
 .subtitle{
 	color: white;
   font-family: "Playfair Display", serif;
 	font-style: italic;
-	font-size: 140%;
+	font-size: 1.75vw;
 	width:60%;
 	position: absolute;
 	top:42%;
@@ -131,7 +129,7 @@ body {
 }
 
 .links{
-  font-size: 150%;
+  font-size: 2vw;
   width:60%;
   position:absolute;
   top:45%;
