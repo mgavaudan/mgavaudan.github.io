@@ -9,7 +9,6 @@
  * http://www.codrops.com
  */
 var cbpFixedScrollLayout = (function() {
-
 	// cache and initialize some values
 	var config = {
 		// the cbp-fbscroller´s sections

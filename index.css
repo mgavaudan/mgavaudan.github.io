@@ -75,20 +75,20 @@ html, body,
 }
 
 #fbsection2 {
-  background:rgb(27, 36, 40);
+  /*background:rgb(27, 36, 40);*/
+  background-image: url(assets/back1.jpg);
 }
 
 #fbsection3 {
- 
-  background:rgb(44, 60, 67);
+ background-image: url(assets/back2.jpg);
 }
 
 #fbsection4 {
-  background:rgb(51, 70, 80);
+  background-image: url(assets/back3.jpg);
 }
 
 #fbsection5 {
-  background:rgb(58, 80, 100);
+  background-image: url(assets/back4.jpg);
 }
 
 
@@ -189,7 +189,7 @@ a{
 .web{
   padding: 1em;
   color: white;
-  font-family: "Playfair Display SC", serif;
+  font-family: "Playfair Display", serif;
   margin-top: 1em;
   font-size: 120%;
   display: inline-block;
@@ -276,20 +276,28 @@ a{
 
 .abo h3{
   /*color:#9d967d;*/
+  background-color: rgba(0,0,0,0.5);
   padding: 1em;
-  font-size: 150%;
+  font-size: 200%;
 }
 
 .fact{
+  background-color:rgba(255,255,255, 0.9);
+  border-radius: 200px;
   display: inline-block;
-  width: 30%;
+  width: 10em;
+  padding: 1em;
+  line-height: 1.5em;
   height: 10em;
+  color: black;
+  /*border:1px solid #9d967d;*/
 
 }
 
 .topic{
   color:#9d967d;
   font-size: 120%;
+  margin-bottom: 1em;
   font-family: "Playfair Display", serif;
 }
 
@@ -305,8 +313,21 @@ a{
   top:2%;
   left:15%;
   right:15%;
-  color:#9d967d;
+  color:white;
+  /*font-style: bold;*/
   font-size: 110%;
+}
+
+#text{
+  background-color: rgba(0,0,0,0.5);
+  padding: 0.25em;
+}
+
+#text h2{
+  font-family: "Playfair Display SC", serif;
+}
+
+#text p{
   font-family: "Playfair Display", serif;
 }
 
