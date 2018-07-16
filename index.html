@@ -1,31 +1,304 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+	<title>CryptoStats</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Cryptocurrency Landing Page Template">
+	<meta name="keywords" content="cryptocurrency, unica, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
 
-  <title>CIC</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/themify-icons.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 </head>
-
 <body>
-	<h1> CHAIN INTELLIGENCE CAPITAL </h1>
-	<h2> Cryptocurrency Hedge Fund </h2>
-	<h3> We specialize in OTC deal intermediation, 
-		 quantitative strategies and ICO & Altcoin Investments.
-		 You can reach us at mgavaudan@chainintelligence.io for
-		 proposals, press or other inquiries.
-	</h3>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
 
-  <!-- <script src="js/scripts.js"></script> -->
+	<!-- Header section -->
+	<header class="header-section clearfix">
+		<div class="container-fluid">
+			<a href="index.html" class="site-logo">
+				<img src="img/logo.png" alt="">
+			</a>
+			<div class="responsive-bar"><i class="fa fa-bars"></i></div>
+			<a href="" class="user"><i class="fa fa-user"></i></a>
+			<a href="mailto:mgavaudan@chainintelligence.io" class="site-btn">Inquire For Free</a>
+			<nav class="main-menu">
+				<ul class="menu-list">
+					<li><a href="pricing.html">Pricing</a></li>
+					<li><a href="exchanges.html">Exchanges</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- Header section end -->
+
+
+	<!-- Hero section -->
+	<section class="hero-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 hero-text">
+					<h2>Buy <span>Crypto Data</span> <br>Start Trading</h2>
+					<h4>Get access to orderbook & trade data on all exchanges. </h4>
+
+					<form action="https://formspree.io/mgavaudan@chainintelligence.io" method="POST" class="hero-subscribe-from">
+						<input type="email" name="_replyto" placeholder="Enter your email">
+						<button type="submit" class="site-btn sb-gradients">Get Started</button>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<img src="img/laptop.png" class="laptop-image" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end -->
+
+
+	<!-- About section -->
+	<section class="pricing-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-6 pricing-text">
+					<h2>What do we do?</h2>
+					<h5>We sell orderbooks and trades of varying granularity for crypto.</h5>
+					<p> We support every major exchange, with granularity as small as seconds.
+						We have orderbook level 2 and trade data for hundreds of days. Do you
+						need another type of data? Don't hesitate to reach out and we will see
+						if we can get it for you.
+					</p>
+					<a href="" class="site-btn sb-gradients sbg-line mt-5">Get Started</a>
+				</div>
+			</div>
+			<div class="pricing-img-2">
+				<img src="img/about-img.png" alt="">
+			</div>
+		</div>
+	</section>
+	<!-- About section end -->
+
+
+	<!-- Features section -->
+	<section class="features-section spad gradient-bg">
+		<div class="container text-white">
+			<div class="section-title text-center">
+				<h2>Our Features</h2>
+				<p>CryptoStats is the fastest and easiest way to get access to crypto data.</p>
+			</div>
+			<div class="row">
+				<!-- feature -->
+				<div class="col-md-6 col-lg-4 feature">
+					<i class="ti-wallet"></i>
+					<div class="feature-content">
+						<h4>Pay With Crypto</h4>
+						<p>We understand most of our customers are involved in the crypto
+						   space and strongly believe in them as a payment system. </p>
+					</div>
+				</div>
+				<!-- feature -->
+				<div class="col-md-6 col-lg-4 feature">
+					<i class="ti-shield"></i>
+					<div class="feature-content">
+						<h4>Safe & Secure</h4>
+						<p>You don't have to pay us until you get your data. Not satisfied? 
+						   Money back guaranteed! </p>
+					</div>
+				</div>
+				<!-- feature -->
+				<div class="col-md-6 col-lg-4 feature">
+					<i class="ti-mobile"></i>
+					<div class="feature-content">
+						<h4>Flexibility</h4>
+						<p>Don't see data you need? Email us and we'll get it for you. </p>
+					</div>
+				</div>
+				<!-- feature -->
+				<div class="col-md-6 col-lg-4 feature">
+					<i class="ti-headphone-alt"></i>
+					<div class="feature-content">
+						<h4>Experts Support</h4>
+						<p>We have on call experts available all week long to answer your every question.
+						</p>
+					</div>
+				</div>
+				<!-- feature -->
+				<div class="col-md-6 col-lg-4 feature">
+					<i class="ti-reload"></i>
+					<div class="feature-content">
+						<h4>Near Instant Exchange</h4>
+						<p>As soon as you email us with your desired order, we will send over the data. </p>
+					</div>
+				</div>
+				<!-- feature -->
+				<div class="col-md-6 col-lg-4 feature">
+					<i class="ti-panel"></i>
+					<div class="feature-content">
+						<h4>Recuring Buys</h4>
+						<p> We have discounts for our loyal customers that repeatedly order from us. The amounts vary on the quantity but inquire with us for free! </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Features section end -->
+
+
+	<!-- Process section -->
+	<section class="process-section spad">
+		<div class="container">
+			<div class="section-title text-center">
+				<h2>Get Started With Us</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4 process">
+					<div class="process-step">
+						<figure class="process-icon">
+							<img src="img/process-icons/1.png" alt="#">
+						</figure>
+						<h4>Decide What Data You Want</h4>
+						<p>Choose what exchanges, orderbooks, trades, granularity and date length you need. </p>
+					</div>
+				</div>
+				<div class="col-md-4 process">
+					<div class="process-step">
+						<figure class="process-icon">
+							<img src="img/process-icons/2.png" alt="#">
+						</figure>
+						<h4>Send Us An Email</h4>
+						<p>Please include in your email the details mentioned above and what format you prefer receiving it in. </p>
+					</div>
+				</div>
+				<div class="col-md-4 process">
+					<div class="process-step">
+						<figure class="process-icon">
+							<img src="img/process-icons/3.png" alt="#">
+						</figure>
+						<h4>Receive Your Data</h4>
+						<p>We'll gather and send you your data as you requested as soon as possible. Pay only once you've received it and are satisfied!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Process section end -->
+
+	<!-- Review section -->
+	<section class="review-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 push-8">
+					<img src="img/quote.png" alt="" class="quote mb-5">
+					<div class="review-text-slider owl-carousel">
+						<div class="review-text">
+							<p>"So fast, and all the data was there!”</p>
+						</div>
+						<div class="review-text">
+							<p>"Way cheaper than Kaiko.”</p>
+						</div>
+						<div class="review-text">
+							<p>"Honestly, it was really cool they accepted most cryptocurrencies.”</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 pr-0 pull-3">
+					<div class="review-meta-slider owl-carousel pt-5">
+						<div class="author-meta">
+							<div class="author-avatar set-bg" data-setbg="img/review/1.jpg"></div>
+							<div class="author-name">
+								<h4>Aaron B.</h4>
+								<p>Crypto Trader</p>
+							</div>
+						</div>
+						<div class="author-meta">
+							<div class="author-avatar set-bg" data-setbg="img/review/2.jpg"></div>
+							<div class="author-name">
+								<h4>Jackson N.</h4>
+								<p>Academic</p>
+							</div>
+						</div>
+						<div class="author-meta">
+							<div class="author-avatar set-bg" data-setbg="img/review/3.jpg"></div>
+							<div class="author-name">
+								<h4>Katy A.</h4>
+								<p>Product Manager</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Review section end -->
+
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row spad">
+				<div class="col-md-6 col-lg-3 footer-widget">
+					<img src="img/logo.png" class="mb-4" alt="">
+					<p>In the cryptocurrency industry since 2014.</p>
+					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+				</div>
+				<div class="col-md-6 col-lg-2 offset-lg-1 footer-widget">
+					<h5 class="widget-title">Resources</h5>
+					<ul>
+						<li><a href="#">Customer Support</a></li>
+						<li><a href="exchanges.html">Data Overview</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">VIP</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-lg-2 offset-lg-1 footer-widget">
+					<h5 class="widget-title">Contact Us</h5>
+					<ul>
+						<li><a href="#">mgavaudan@chainintelligence.io</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="row">
+					<div class="col-lg-4 store-links text-center text-lg-left pb-3 pb-lg-0">
+						<a href=""><img src="img/appstore.png" alt="" class="mr-2"></a>
+						<a href=""><img src="img/playstore.png" alt=""></a>
+					</div>
+					<div class="col-lg-8 text-center text-lg-right">
+						<ul class="footer-nav">
+							<li><a href="">Terms of Use</a></li>
+							<li><a href="">Privacy Policy </a></li>
+							<li><a href="">(917) 340-7835</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
